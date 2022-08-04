@@ -1,0 +1,7 @@
+CREATE TABLE movimientos (
+			movimiento INTEGER NOT NULL PRIMARY KEY,
+			numeroCuenta INTEGER NOT NULL, 
+			monto INTEGER NOT NULL,
+			tipoOperacion INTEGER NOT NULL DEFAULT 'Transaccion',
+			hora TIME NOT NULL
+);
